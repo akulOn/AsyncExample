@@ -16,3 +16,5 @@ var requests = Enumerable
 await Task.WhenAll(requests);
 
 Console.WriteLine($"Zahtevi su gotovi za: {stopwatch.Elapsed.TotalMilliseconds}");
+
+System.Console.WriteLine("Hello!");
